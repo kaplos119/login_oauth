@@ -1,2 +1,7 @@
-<%byebug%>
-<h1>Kaplos119</h1>
+<% if @timeout_flag %>
+	<h1>Timeout failure</h1>
+<% elsif @request_failure %>
+	<h1>Request Failed</h1>
+<% else %>
+	<p><%=@repos_hash%></p>
+<% end %>
