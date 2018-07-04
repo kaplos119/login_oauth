@@ -1,7 +1,29 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	function toogle_information(key){
+	    $("div.repo_"+key).toggle(1000);
+	}
+</script>
 <% if @timeout_flag %>
 	<h1>Timeout failure</h1>
 <% elsif @request_failure %>
 	<h1>Request Failed</h1>
 <% else %>
-	<p><%=@repos_hash%></p>
+	<!-- <p><%#=@repos_hash%></p> -->
+	<div>
+		<% if !@repos_hash.blank? %>
+			<% @repos_hash.keys.each{|key| %>
+				<a class = 'repo_<%=key%>' onclick="toogle_information(<%=key%>)">
+					<u style = 'color:blue'>Repository <%=key+1%> (<%=@repos_hash[key]['private'] ? 'Private':'Public'%>)</u>
+				</a>
+				<div style = 'display:none' class = 'repo_<%=key%>'>
+					Name: <%=@repos_hash[key]['name']%> <br>
+					Description: <%=@repos_hash[key]['description']%>
+				</div>
+				<br>
+			<% } %>
+		<% else %>
+			No Repository Found
+		<% end %>
+	</div>
 <% end %>
