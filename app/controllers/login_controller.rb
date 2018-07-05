@@ -23,6 +23,7 @@ class LoginController < ActionController::Base
 				    request = Net::HTTP::Post.new(uri.request_uri)
 				    response = http.request(request)
 		    		response_body = CGI::parse(response.body)
+		    		Rails.logger.error "********#{response.code}*****#{response_body}*******"
 		    		if ((response.code == '200') and (response_body.key?'access_token'))
 				    	uri = URI.parse(URI::encode("https://api.github.com/user/repos?access_token=#{response_body['access_token'].last}"))
 				    	http = Net::HTTP.new(uri.host, uri.port)
@@ -30,6 +31,7 @@ class LoginController < ActionController::Base
 					    http.verify_mode = OpenSSL::SSL::VERIFY_NONE
 					    request = Net::HTTP::Get.new(uri.request_uri)
 					    response_1 = http.request(request)
+					    Rails.logger.error "*********#{response_1.code}********#{response_1.body}***"
 					    @repos_hash = {}
 					    if response_1.code == '200'
 					    	body_hash = JSON.parse(response_1.body)
