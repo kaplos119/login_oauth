@@ -36,7 +36,7 @@ gem 'byebug'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development, :test do
-  gem 'sqlite3'		
+  #gem 'sqlite3'		
   # Pretty printed test output
   # gem 'turn', '0.8.2', :require => false
 end
