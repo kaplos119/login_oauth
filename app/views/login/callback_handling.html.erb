@@ -14,7 +14,7 @@
 		<% if !@repos_hash.blank? %>
 			<% @repos_hash.keys.each{|key| %>
 				<a class = 'repo_<%=key%>' onclick="toogle_information(<%=key%>)">
-					<u style = 'color:blue'>Repository <%=key+1%> (<%=@repos_hash[key]['private'] ? 'Private':'Public'%>)</u>
+					<u style = 'color:blue'><%=key+1%>. <%=@repos_hash[key]['name']%> (<%=@repos_hash[key]['private'] ? 'Private':'Public'%>)</u>
 				</a>
 				<div style = 'display:none' class = 'repo_<%=key%>'>
 					Name: <%=@repos_hash[key]['name']%> <br>
