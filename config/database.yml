@@ -25,9 +25,33 @@
 #   timeout: 5000
 development:
   adapter: postgresql
+  host: ec2-50-19-86-139.compute-1.amazonaws.com
+  port: 5432
   encoding: unicode
-  database: database_1
+  database: d5b9ubcphdndkq
   pool: 5
   timeout: 5000
-  username: kapil
-  password: kapil119
+  username: mcamksncqgikpc
+  password: abf11c8c916b5673466f9b1238ecb27bb3f8712c8c64b2ce5f5811801ae650a5
+
+test:
+  adapter: postgresql
+  host: ec2-50-19-86-139.compute-1.amazonaws.com
+  port: 5432
+  encoding: unicode
+  database: d5b9ubcphdndkq
+  pool: 5
+  timeout: 5000
+  username: mcamksncqgikpc
+  password: abf11c8c916b5673466f9b1238ecb27bb3f8712c8c64b2ce5f5811801ae650a5
+
+production:
+  adapter: postgresql
+  host: ec2-50-19-86-139.compute-1.amazonaws.com
+  port: 5432
+  encoding: unicode
+  database: d5b9ubcphdndkq
+  pool: 5
+  timeout: 5000
+  username: mcamksncqgikpc
+  password: abf11c8c916b5673466f9b1238ecb27bb3f8712c8c64b2ce5f5811801ae650a5
