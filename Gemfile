@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 group :assets do
   #gem 'coffee-rails', '~> 3.1.1'
   gem 'sass-rails'
-  # gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier'
 end
 gem 'byebug'
 gem 'bootsnap', '~> 1.1.2'
