@@ -1,13 +1,20 @@
 source 'http://rubygems.org'
-gem 'rails', '3.1.10'
 group :assets do
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'uglifier', '>= 1.0.3'
+  #gem 'coffee-rails', '~> 3.1.1'
+  gem 'sass-rails'
+  # gem 'uglifier', '>= 1.0.3'
 end
 gem 'byebug'
+gem 'bootsnap', '~> 1.1.2'
 gem 'jquery-rails'
 gem 'rubocop', require: false
 gem 'test-unit'
+gem 'unicorn'
+gem 'rubber'
+gem 'pg', '~> 0.18'
+gem 'activerecord-postgresql-adapter'
+gem 'rails', '~> 5.2.0'
+gem 'ransack'
 group :development, :test do
 end
+gem 'therubyracer', :group => :assets

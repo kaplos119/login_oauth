@@ -1,0 +1,194 @@
+I, [2018-07-21T20:45:34.133335 #3348]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-21T20:45:38.227469 #3348]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=9
+I, [2018-07-21T20:45:38.227656 #3348]  INFO -- : worker=0 spawning...
+I, [2018-07-21T20:45:38.229192 #3348]  INFO -- : worker=1 spawning...
+I, [2018-07-21T20:45:38.229944 #3352]  INFO -- : worker=0 spawned pid=3352
+I, [2018-07-21T20:45:38.230215 #3352]  INFO -- : worker=0 ready
+I, [2018-07-21T20:45:38.231251 #3348]  INFO -- : master process ready
+I, [2018-07-21T20:45:38.232116 #3355]  INFO -- : worker=1 spawned pid=3355
+I, [2018-07-21T20:45:38.232477 #3355]  INFO -- : worker=1 ready
+I, [2018-07-21T21:05:57.647624 #3348]  INFO -- : reaped #<Process::Status: pid 3352 exit 0> worker=0
+I, [2018-07-21T21:05:57.647851 #3348]  INFO -- : reaped #<Process::Status: pid 3355 exit 0> worker=1
+I, [2018-07-21T21:05:57.648013 #3348]  INFO -- : master complete
+I, [2018-07-21T21:06:07.221661 #4541]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-21T21:06:08.274209 #4541]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-21T21:06:08.274439 #4541]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=9
+I, [2018-07-21T21:06:08.274570 #4541]  INFO -- : worker=0 spawning...
+I, [2018-07-21T21:06:08.276079 #4541]  INFO -- : worker=1 spawning...
+I, [2018-07-21T21:06:08.276799 #4544]  INFO -- : worker=0 spawned pid=4544
+I, [2018-07-21T21:06:08.276982 #4544]  INFO -- : worker=0 ready
+I, [2018-07-21T21:06:08.278909 #4541]  INFO -- : master process ready
+I, [2018-07-21T21:06:08.279644 #4547]  INFO -- : worker=1 spawned pid=4547
+I, [2018-07-21T21:06:08.279983 #4547]  INFO -- : worker=1 ready
+I, [2018-07-21T21:28:53.691465 #4541]  INFO -- : reaped #<Process::Status: pid 4544 exit 0> worker=0
+I, [2018-07-21T21:28:53.691625 #4541]  INFO -- : reaped #<Process::Status: pid 4547 exit 0> worker=1
+I, [2018-07-21T21:28:53.691712 #4541]  INFO -- : master complete
+I, [2018-07-21T21:29:10.013110 #5923]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-21T21:29:11.080977 #5923]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-21T21:29:11.081240 #5923]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=9
+I, [2018-07-21T21:29:11.081382 #5923]  INFO -- : worker=0 spawning...
+I, [2018-07-21T21:29:11.083514 #5923]  INFO -- : worker=1 spawning...
+I, [2018-07-21T21:29:11.084298 #5926]  INFO -- : worker=0 spawned pid=5926
+I, [2018-07-21T21:29:11.084544 #5926]  INFO -- : worker=0 ready
+I, [2018-07-21T21:29:11.086022 #5923]  INFO -- : master process ready
+I, [2018-07-21T21:29:11.086783 #5929]  INFO -- : worker=1 spawned pid=5929
+I, [2018-07-21T21:29:11.087000 #5929]  INFO -- : worker=1 ready
+I, [2018-07-21T22:30:51.304569 #7922]  INFO -- : executing ["/home/kapil/.rvm/gems/ruby-2.5.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "development", "-D", {9=>#<Kgio::UNIXServer:/home/kapil/web/login_oauth/shared/sockets/unicorn.sock>}] (in /home/kapil/web/login_oauth)
+I, [2018-07-21T22:30:51.304873 #7922]  INFO -- : forked child re-executing...
+I, [2018-07-21T22:30:51.707512 #7922]  INFO -- : inherited addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=9
+I, [2018-07-21T22:30:51.707889 #7922]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-21T22:30:52.743754 #7922]  INFO -- : worker=0 spawning...
+I, [2018-07-21T22:30:52.745878 #7922]  INFO -- : worker=1 spawning...
+I, [2018-07-21T22:30:52.746792 #7926]  INFO -- : worker=0 spawned pid=7926
+I, [2018-07-21T22:30:52.747120 #7926]  INFO -- : worker=0 ready
+I, [2018-07-21T22:30:52.748148 #7922]  INFO -- : master process ready
+I, [2018-07-21T22:30:52.748933 #7929]  INFO -- : worker=1 spawned pid=7929
+I, [2018-07-21T22:30:52.749128 #7929]  INFO -- : worker=1 ready
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:205:in `pid=': Already running on PID:7922 (or pid=/home/kapil/web/login_oauth/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:137:in `start'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/bin/unicorn:126:in `<top (required)>'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/unicorn:23:in `load'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/unicorn:23:in `<main>'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:15:in `<main>'
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:205:in `pid=': Already running on PID:7922 (or pid=/home/kapil/web/login_oauth/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:137:in `start'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/gems/unicorn-5.4.0/bin/unicorn:126:in `<top (required)>'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/unicorn:23:in `load'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/unicorn:23:in `<main>'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:15:in `eval'
+	from /home/kapil/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:15:in `<main>'
+I, [2018-07-22T00:03:13.287723 #7922]  INFO -- : reaped #<Process::Status: pid 7926 exit 0> worker=0
+I, [2018-07-22T00:03:13.287724 #5923]  INFO -- : reaped #<Process::Status: pid 5926 exit 0> worker=0
+I, [2018-07-22T00:03:13.287907 #7922]  INFO -- : reaped #<Process::Status: pid 7929 exit 0> worker=1
+I, [2018-07-22T00:03:13.287916 #5923]  INFO -- : reaped #<Process::Status: pid 5929 exit 0> worker=1
+I, [2018-07-22T00:03:13.287981 #5923]  INFO -- : master complete
+I, [2018-07-22T00:03:13.288011 #7922]  INFO -- : master complete
+I, [2018-07-22T11:43:30.434996 #1235]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-22T11:43:40.540492 #1235]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-22T11:43:40.540723 #1235]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=9
+I, [2018-07-22T11:43:40.540858 #1235]  INFO -- : worker=0 spawning...
+I, [2018-07-22T11:43:40.542503 #1235]  INFO -- : worker=1 spawning...
+I, [2018-07-22T11:43:40.543230 #1302]  INFO -- : worker=0 spawned pid=1302
+I, [2018-07-22T11:43:40.543444 #1302]  INFO -- : worker=0 ready
+I, [2018-07-22T11:43:40.544615 #1235]  INFO -- : master process ready
+I, [2018-07-22T11:43:40.547726 #1305]  INFO -- : worker=1 spawned pid=1305
+I, [2018-07-22T11:43:40.547993 #1305]  INFO -- : worker=1 ready
+127.0.0.1 - - [22/Jul/2018 11:50:53] "GET /login HTTP/1.0" 200 - 1.0360
+127.0.0.1 - - [22/Jul/2018 11:51:00] "GET /login HTTP/1.0" 200 - 0.3465
+127.0.0.1 - - [22/Jul/2018 12:15:04] "GET /login HTTP/1.0" 200 - 0.0133
+127.0.0.1 - - [22/Jul/2018 12:15:53] "GET /login HTTP/1.0" 200 - 0.0178
+127.0.0.1 - - [22/Jul/2018 12:16:02] "GET /login HTTP/1.0" 200 - 0.0150
+127.0.0.1 - - [22/Jul/2018 12:17:57] "GET /login HTTP/1.0" 200 - 0.0115
+127.0.0.1 - - [22/Jul/2018 12:20:01] "GET /login HTTP/1.0" 200 - 0.0120
+127.0.0.1 - - [22/Jul/2018 12:20:03] "GET /login HTTP/1.0" 200 - 0.0124
+127.0.0.1 - - [22/Jul/2018 12:20:50] "GET /login HTTP/1.0" 200 - 0.0162
+127.0.0.1 - - [22/Jul/2018 12:21:09] "GET /login HTTP/1.0" 200 - 0.0123
+127.0.0.1 - - [22/Jul/2018 12:23:40] "GET /login HTTP/1.0" 200 - 0.0127
+127.0.0.1 - - [22/Jul/2018 13:44:56] "GET /login HTTP/1.0" 200 - 0.0134
+I, [2018-07-22T13:58:05.288248 #1235]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2018-07-22T13:58:05.530969 #1235]  INFO -- : Refreshing Gem list
+I, [2018-07-22T13:58:05.538150 #1235]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2018-07-22T13:58:05.538431 #1235]  INFO -- : reaped #<Process::Status: pid 1302 exit 0> worker=0
+I, [2018-07-22T13:58:05.538543 #1235]  INFO -- : reaped #<Process::Status: pid 1305 exit 0> worker=1
+I, [2018-07-22T13:58:05.538724 #1235]  INFO -- : master complete
+I, [2018-07-22T20:07:21.021496 #1251]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-22T20:07:37.400335 #1251]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-22T20:07:37.400574 #1251]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=11
+I, [2018-07-22T20:07:37.400717 #1251]  INFO -- : worker=0 spawning...
+I, [2018-07-22T20:07:37.402318 #1251]  INFO -- : worker=1 spawning...
+I, [2018-07-22T20:07:37.403189 #1324]  INFO -- : worker=0 spawned pid=1324
+I, [2018-07-22T20:07:37.403439 #1324]  INFO -- : worker=0 ready
+I, [2018-07-22T20:07:37.404357 #1251]  INFO -- : master process ready
+I, [2018-07-22T20:07:37.405101 #1327]  INFO -- : worker=1 spawned pid=1327
+I, [2018-07-22T20:07:37.405302 #1327]  INFO -- : worker=1 ready
+D, [2018-07-22T21:46:23.959579 #1251] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2018-07-22T23:36:24.891988 #1251]  INFO -- : reaped #<Process::Status: pid 1324 exit 0> worker=0
+I, [2018-07-22T23:36:24.892136 #1251]  INFO -- : reaped #<Process::Status: pid 1327 exit 0> worker=1
+I, [2018-07-22T23:36:25.282163 #1251]  INFO -- : master complete
+I, [2018-07-23T15:37:56.782662 #1300]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-23T15:38:01.990474 #1300]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-23T15:38:01.990692 #1300]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=11
+I, [2018-07-23T15:38:01.990828 #1300]  INFO -- : worker=0 spawning...
+I, [2018-07-23T15:38:01.992424 #1300]  INFO -- : worker=1 spawning...
+I, [2018-07-23T15:38:01.993185 #1427]  INFO -- : worker=0 spawned pid=1427
+I, [2018-07-23T15:38:01.993419 #1427]  INFO -- : worker=0 ready
+I, [2018-07-23T15:38:01.994324 #1300]  INFO -- : master process ready
+I, [2018-07-23T15:38:01.996965 #1430]  INFO -- : worker=1 spawned pid=1430
+I, [2018-07-23T15:38:01.997225 #1430]  INFO -- : worker=1 ready
+I, [2018-07-23T15:59:39.313292 #1300]  INFO -- : reaped #<Process::Status: pid 1427 exit 0> worker=0
+I, [2018-07-23T15:59:39.313508 #1300]  INFO -- : reaped #<Process::Status: pid 1430 exit 0> worker=1
+I, [2018-07-23T15:59:39.313626 #1300]  INFO -- : master complete
+I, [2018-07-23T20:36:32.626394 #1298]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-23T20:36:37.680075 #1298]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-23T20:36:37.680287 #1298]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=11
+I, [2018-07-23T20:36:37.680422 #1298]  INFO -- : worker=0 spawning...
+I, [2018-07-23T20:36:37.681942 #1298]  INFO -- : worker=1 spawning...
+I, [2018-07-23T20:36:37.682660 #1325]  INFO -- : worker=0 spawned pid=1325
+I, [2018-07-23T20:36:37.682890 #1325]  INFO -- : worker=0 ready
+I, [2018-07-23T20:36:37.684128 #1298]  INFO -- : master process ready
+I, [2018-07-23T20:36:37.687129 #1328]  INFO -- : worker=1 spawned pid=1328
+I, [2018-07-23T20:36:37.687420 #1328]  INFO -- : worker=1 ready
+I, [2018-07-23T23:51:04.277346 #1298]  INFO -- : reloading config_file=config/unicorn.rb
+I, [2018-07-23T23:51:04.461800 #1298]  INFO -- : Refreshing Gem list
+I, [2018-07-23T23:51:04.642067 #1298]  INFO -- : done reloading config_file=config/unicorn.rb
+I, [2018-07-23T23:51:04.642303 #1298]  INFO -- : reaped #<Process::Status: pid 1325 exit 0> worker=0
+I, [2018-07-23T23:51:04.642397 #1298]  INFO -- : reaped #<Process::Status: pid 1328 exit 0> worker=1
+I, [2018-07-23T23:51:04.642562 #1298]  INFO -- : master complete
+I, [2018-07-24T13:50:01.003944 #1294]  INFO -- : Refreshing Gem list
+/home/kapil/.rvm/gems/ruby-2.5.1/gems/activesupport-3.1.10/lib/active_support/values/time_zone.rb:270: warning: circular argument reference - now
+I, [2018-07-24T13:50:05.749460 #1294]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-24T13:50:05.749689 #1294]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=11
+I, [2018-07-24T13:50:05.749824 #1294]  INFO -- : worker=0 spawning...
+I, [2018-07-24T13:50:05.751437 #1294]  INFO -- : worker=1 spawning...
+I, [2018-07-24T13:50:05.752142 #1306]  INFO -- : worker=0 spawned pid=1306
+I, [2018-07-24T13:50:05.752338 #1306]  INFO -- : worker=0 ready
+I, [2018-07-24T13:50:05.754208 #1294]  INFO -- : master process ready
+I, [2018-07-24T13:50:05.754931 #1309]  INFO -- : worker=1 spawned pid=1309
+I, [2018-07-24T13:50:05.755209 #1309]  INFO -- : worker=1 ready
+I, [2018-07-25T01:51:56.005972 #23545]  INFO -- : Refreshing Gem list
+I, [2018-07-25T01:51:57.329282 #23545]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-25T01:51:57.348394 #23545]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=12
+I, [2018-07-25T01:51:57.348548 #23545]  INFO -- : worker=0 spawning...
+I, [2018-07-25T01:51:57.351610 #23545]  INFO -- : worker=1 spawning...
+I, [2018-07-25T01:51:57.352432 #23550]  INFO -- : worker=0 spawned pid=23550
+I, [2018-07-25T01:51:57.352662 #23550]  INFO -- : worker=0 ready
+I, [2018-07-25T01:51:57.355258 #23545]  INFO -- : master process ready
+I, [2018-07-25T01:51:57.356065 #23553]  INFO -- : worker=1 spawned pid=23553
+I, [2018-07-25T01:51:57.356258 #23553]  INFO -- : worker=1 ready
+127.0.0.1 - - [25/Jul/2018:01:52:08 +0530] "GET /login HTTP/1.0" 200 - 0.5044
+I, [2018-07-25T01:55:05.456914 #23545]  INFO -- : reaped #<Process::Status: pid 23550 exit 0> worker=0
+I, [2018-07-25T01:55:05.457137 #23545]  INFO -- : reaped #<Process::Status: pid 23553 exit 0> worker=1
+I, [2018-07-25T01:55:05.457249 #23545]  INFO -- : master complete
+I, [2018-07-25T10:49:47.187342 #1289]  INFO -- : Refreshing Gem list
+I, [2018-07-25T10:50:06.724653 #1289]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-25T10:50:06.724886 #1289]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=12
+I, [2018-07-25T10:50:06.725062 #1289]  INFO -- : worker=0 spawning...
+I, [2018-07-25T10:50:06.727286 #1289]  INFO -- : worker=1 spawning...
+I, [2018-07-25T10:50:06.728064 #1354]  INFO -- : worker=0 spawned pid=1354
+I, [2018-07-25T10:50:06.728265 #1354]  INFO -- : worker=0 ready
+I, [2018-07-25T10:50:06.730742 #1289]  INFO -- : master process ready
+I, [2018-07-25T10:50:06.731560 #1357]  INFO -- : worker=1 spawned pid=1357
+I, [2018-07-25T10:50:06.731769 #1357]  INFO -- : worker=1 ready
+I, [2018-07-25T16:21:47.798424 #13036]  INFO -- : Refreshing Gem list
+I, [2018-07-25T16:21:48.661390 #13036]  INFO -- : unlinking existing socket=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock
+I, [2018-07-25T16:21:48.661643 #13036]  INFO -- : listening on addr=/home/kapil/web/login_oauth/shared/sockets/unicorn.sock fd=12
+I, [2018-07-25T16:21:48.661803 #13036]  INFO -- : worker=0 spawning...
+I, [2018-07-25T16:21:48.664934 #13036]  INFO -- : worker=1 spawning...
+I, [2018-07-25T16:21:48.665764 #13040]  INFO -- : worker=0 spawned pid=13040
+I, [2018-07-25T16:21:48.666011 #13040]  INFO -- : worker=0 ready
+I, [2018-07-25T16:21:48.668829 #13036]  INFO -- : master process ready
+I, [2018-07-25T16:21:48.669648 #13043]  INFO -- : worker=1 spawned pid=13043
+I, [2018-07-25T16:21:48.669860 #13043]  INFO -- : worker=1 ready
+127.0.0.1 - - [25/Jul/2018:16:21:56 +0530] "GET /login HTTP/1.0" 200 - 0.3645
+127.0.0.1 - - [25/Jul/2018:16:21:59 +0530] "GET /search HTTP/1.0" 200 - 0.3316
+127.0.0.1 - - [25/Jul/2018:16:22:03 +0530] "GET /search/29/city/jai/data HTTP/1.0" 200 - 0.0727
+127.0.0.1 - - [25/Jul/2018:16:22:15 +0530] "GET /search/36/city/darj/data HTTP/1.0" 200 - 0.0546

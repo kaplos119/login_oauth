@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <style>
+  #project-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  #project-description {
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+ 
+  <div id="project-label">Please enter city name</div>
+  <select class='states'>
+    <% @all_states.each{|state| %>
+      <% if state.id == 29 %>
+        <option value = <%=state.id%> selected><%=state.name%></option>
+      <% else %>
+        <option value = <%=state.id%>><%=state.name%></option>
+      <% end %>
+    <% } %>
+  <input id="project" name='keyword' value=''>
+  <script>
+  $(document).ready(function(){
+    var select_value = $(".states option:selected").val();
+    $("select.states").change(function(){
+        var select_value = $(".states option:selected").val();
+    });
+    var input_value = $("input#project").val();
+    $("#project").autocomplete({
+      minLength: 2,
+      source: function(request, response){
+        var select_value = $(".states option:selected").val();
+        $("select.states").change(function(){
+            var select_value = $(".states option:selected").val();
+        });
+        var input_value = $("input#project").val();
+           $.ajax({
+               type: "get",
+               url: '/search/'+select_value+'/city/'+input_value+'/data',
+               dataType: "json",
+               success: function (msg) {
+                for(var index in msg) {
+                  document.write( index + " : " + msg[index] + "<br />");
+                }
+               },
+               error: function (msg) {
+                   alert(msg.status + ' ' + msg.statusText);
+               }
+           })
+      }
+    });
+    //   focus: function( event, ui ) {
+    //     $( "#project" ).val( ui.item.label );
+    //     return false;
+    //   },
+    //   select: function( event, ui ) {
+    //     $( "#project" ).val( ui.item.label );
+    //     $( "#project-description" ).html( ui.item.desc );
+    //     return false;
+    //   }
+    // })
+    // ._renderItem = function (ul, item) {
+    //     return $("<li></li>")
+    //     .data("item.autocomplete", item)
+    //     .append("<a>" + item.Work_Item + "</a>")
+    //     .appendTo(ul);
+    // };
+  } );
+  </script>
+</body>
+</html>
