@@ -29,6 +29,7 @@
       <% end %>
     <% } %>
   <input id="project" name='keyword' value=''>
+  <div id = 'description'></div>
   <script>
   $(document).ready(function(){
     var select_value = $(".states option:selected").val();
@@ -49,8 +50,15 @@
                url: '/search/'+select_value+'/city/'+input_value+'/data',
                dataType: "json",
                success: function (msg) {
+                document.getElementById("description").innerHTML = '';
                 for(var index in msg) {
-                  document.write( index + " : " + msg[index] + "<br />");
+                  // document.write( index + " : " + msg[index] + "<br />");
+                  var h1 = document.createElement('h1');
+                  h1.innerHTML = index;
+                  document.getElementById("description").appendChild(h1);
+                  var h2 = document.createElement('p');
+                  h2.innerHTML = msg[index];
+                  document.getElementById("description").appendChild(h2);
                 }
                },
                error: function (msg) {
