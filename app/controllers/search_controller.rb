@@ -1,8 +1,6 @@
 class SearchController < ActionController::Base
 	def index
-		Rails.cache.fetch("all_states",expires_in: 1.day)  do
-			@all_states = State.select(:id,:name)			
-		end
+		@all_states = State.select(:id,:name)			
 	end
 
 	def result
@@ -10,9 +8,7 @@ class SearchController < ActionController::Base
 		state = State.find_by_id(state_id)
 		@packages = {}
 		unless state.blank?
-			Rails.cache.fetch("package_#{state_id}_#{params[:city].downcase}",expires_in: 2.hours) do
-				@cities = state.cities.select(:id,:name).where("name like ?","%#{params[:city].downcase}%").limit(3)
-		    end
+			@cities = state.cities.select(:id,:name).where("name like ?","%#{params[:city].downcase}%").limit(3)
 			if !@cities.blank?
 				@cities.each{|city|
 					pkgs = city.packages.limit(3)
