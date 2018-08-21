@@ -12,8 +12,8 @@ class SearchController < ActionController::Base
 		@packages = {}
 		unless state.blank?
 			Rails.logger.error "*******package_#{state_id}_#{params[:city].downcase}*****"
-			Rails.cache.fetch("package_#{state_id}_#{params[:city].downcase}",expires_in: 2.hours) do
-			 state.cities.select(:id,:name).where("name like ?","%#{params[:city].downcase}%").limit(3)
+			Rails.cache.fetch("package_#{state_id}_#{params[:city].downcase}",expires_in: 30.minutes) do
+			 state.cities.select(:id,:name).where("name like ?","#{params[:city].downcase}%")
 			end
 			@cities = Rails.cache.fetch("package_#{state_id}_#{params[:city].downcase}")
 			if !@cities.blank?
