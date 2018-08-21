@@ -38,7 +38,7 @@
     });
     var input_value = $("input#project").val();
     $("#project").autocomplete({
-      minLength: 2,
+      minLength: 1,
       source: function(request, response){
         var select_value = $(".states option:selected").val();
         $("select.states").change(function(){
