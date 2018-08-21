@@ -1,9 +1,9 @@
 class SearchController < ActionController::Base
 	def index
-		puts '*****Initiated*******'
 		Rails.cache.fetch("all_states",expires_in: 1.day)  do
-		 @all_states = State.select(:id,:name)
+		 State.select(:id,:name)
 		end
+		@all_states = Rails.cache.fetch('all_states')
 		Rails.logger.error "*******#{@all_states}*******"
 	end
 
