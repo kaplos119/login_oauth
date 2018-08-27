@@ -32,11 +32,6 @@
   <div id = 'description'></div>
   <script>
   $(document).ready(function(){
-    var select_value = $(".states option:selected").val();
-    $("select.states").change(function(){
-        var select_value = $(".states option:selected").val();
-    });
-    var input_value = $("input#project").val();
     $("#project").autocomplete({
       minLength: 1,
       source: function(request, response){
